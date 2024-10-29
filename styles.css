@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  overflow-x: hidden;
+  height: 6000px;
+}
+/* navigation */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  align-items: center;
+}
+.name {
+  color: #d14200;
+  font-family: "Libre Baskerville", serif;
+}
+.menu ul {
+  display: flex;
+  list-style-type: none;
+}
+.menu ul li {
+  cursor: pointer;
+  margin: 0 20px;
+}
+.menu ul li:hover,
+.offcanvas-body ul li:hover {
+  color: #d14200;
+  transition: 0.3s;
+}
+.toggle {
+  display: none !important;
+}
+.toggle-btn {
+  color: #d14200;
+}
+.offcanvas-fullscreen {
+  height: 100vh !important;
+  width: 100vw !important;
+  position: fixed;
+}
+.offcanvas-body ul {
+  margin: auto;
+  text-align: center;
+
+  list-style-type: none;
+}
+.offcanvas-body ul li {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* first section */
+.first-section {
+  margin-top: 40px;
+}
+.left-img {
+  width: 100%;
+}
+.right-side-wrapper {
+  text-align: center;
+  margin: auto;
+  margin-top: 35px;
+}
+.right-side-wrapper h3 {
+  font-family: "Libre Baskerville", serif;
+}
+.right-side-wrapper div {
+  margin-top: 25px;
+}
+.right-side-wrapper div h4 {
+  width: 70%;
+  text-align: left;
+  margin: auto;
+}
+.right-side-wrapper div p {
+  padding: 15px 0;
+  width: 70%;
+  text-align: left;
+  margin: auto;
+}
+.right-side-wrapper button {
+  padding: 10px 45px;
+  background-color: transparent;
+  border: solid 1px black;
+}
+.right-side-wrapper button:hover,
+.Subscribe-btn:hover {
+  color: #d14200;
+  transition: 0.3s;
+}
+/* second section */
+.second-section {
+  margin-top: 60px;
+}
+.second-section-wrapper {
+  width: 100%;
+  margin: auto;
+}
+.card-custom {
+  width: 700px;
+  margin: auto;
+  margin-top: 25px;
+}
+.card-img {
+  width: 50%;
+  height: 300px;
+  padding: 0 !important;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
+.card-right-section {
+  margin-left: 15px;
+}
+.small-details {
+  font-size: 12px;
+}
+.card-right-section h4 {
+  font-family: "Libre Baskerville", serif;
+}
+.details {
+  font-size: 14px;
+  font-family: "Libre Baskerville", serif;
+}
+/* third section */
+.third-section {
+  margin-top: 60px;
+}
+.third-section-img,
+.third-section-text,
+.fourth-section-img {
+  padding: 0 !important;
+}
+.third-section-img-hidden {
+  display: none;
+}
+.third-section-text div {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 30%;
+}
+.third-section-img img,
+.fourth-section-img img {
+  width: 100%;
+}
+
+/* fourth section */
+.fourth-section-text {
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+.more {
+  padding: 10px 45px;
+  background-color: transparent;
+  border: solid 1px black;
+}
+.more:hover {
+  color: #d14200;
+  transition: 0.3s;
+}
+/* fifth section */
+.fifth-section h1 {
+  text-align: center;
+}
+.fifth-section-img {
+  width: 250px;
+  height: 250px;
+}
+.fifth-section-img img {
+  width: 100%;
+  height: 100%;
+}
+/* form */
+.form-wrapper {
+  margin-top: 200px;
+  text-align: center;
+  width: 100%;
+}
+.form {
+  width: 80%;
+  margin: auto;
+}
+.form-name {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.form-name div {
+  width: 400px;
+}
+.name-input {
+  text-align: left !important;
+}
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px black;
+}
+.email {
+  width: 67%;
+  margin: auto;
+  margin-top: 20px;
+}
+.email-text {
+  text-align: left !important;
+}
+.email-input {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px black;
+}
+.Subscribe-btn {
+  margin-top: 50px;
+  padding: 7px 70px;
+  background-color: transparent;
+  border: solid 1px black;
+}
+
+/* footer */
+footer {
+  background-color: #414141;
+  height: 500px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-right {
+  color: white;
+  padding-top: 50px;
+}
+.footer-right-hidden {
+  display: none;
+}
+.footer-left {
+  color: white;
+  padding-top: 50px;
+}
+.Subscribe-btn-footer:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+.Subscribe-btn-footer {
+  margin-top: 50px;
+  padding: 7px 70px;
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  cursor: pointer;
+}
+.input-footer {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px white;
+  background-color: transparent;
+}
+.email-input-footer {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px white;
+  background-color: transparent;
+}
+.message-input-footer {
+  width: 100%;
+  height: 90px;
+  border: none;
+  border-bottom: solid 1px white;
+  background-color: transparent;
+}
+
+@media (max-width: 991px) {
+  /* navigation */
+  .menu {
+    display: none;
+  }
+  .toggle {
+    display: block !important;
+  }
+  .third-section-img-hidden,
+  .fourth-section-img {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display: block;
+  }
+  .third-section-img-hidden img,
+  .fourth-section-img img {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+  }
+  .third-section-img {
+    display: none;
+  }
+  .third-section-text div {
+    margin-top: 10%;
+  }
+  .fourth-section {
+    background-color: #f0d5c94d;
+  }
+  .fourth-section-img {
+    margin-top: 100px !important;
+  }
+  footer {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 600px;
+  }
+  .footer-right {
+    display: none;
+  }
+  .footer-right-hidden {
+    display: block;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 761px) {
+  .card-custom {
+    width: 400px;
+  }
+  .card-img {
+    height: 250px;
+  }
+  .small-details {
+    font-size: 10px;
+  }
+  .card-right-section h4 {
+    font-size: 14px;
+  }
+  .details {
+    font-size: 12px;
+  }
+}
